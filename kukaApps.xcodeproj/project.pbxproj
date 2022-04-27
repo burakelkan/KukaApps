@@ -1,0 +1,830 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A3BBF71E04A10BCBA34AA0A /* Pods_kukaApps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F683D1E84F04F6A30B6D415F /* Pods_kukaApps.framework */; };
+		96959D0D74CD41FD417D7C55 /* Pods_kukaAppsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E4D68D28D63CE7E0692DD3 /* Pods_kukaAppsTests.framework */; };
+		9F5DBCAF2818FFBD003C93CB /* favoriListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5DBCAE2818FFBD003C93CB /* favoriListTableViewCell.swift */; };
+		9F5DBCB12818FFD1003C93CB /* favoriList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5DBCB02818FFD1003C93CB /* favoriList.swift */; };
+		9F93E1EB2818817B003B067B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F93E1EA2818817B003B067B /* AppDelegate.swift */; };
+		9F93E1ED2818817B003B067B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F93E1EC2818817B003B067B /* SceneDelegate.swift */; };
+		9F93E1F22818817B003B067B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F93E1F02818817B003B067B /* Main.storyboard */; };
+		9F93E1F52818817B003B067B /* kukaApps.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F93E1F32818817B003B067B /* kukaApps.xcdatamodeld */; };
+		9F93E1F72818817E003B067B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F93E1F62818817E003B067B /* Assets.xcassets */; };
+		9F93E1FA2818817E003B067B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F93E1F82818817E003B067B /* LaunchScreen.storyboard */; };
+		9F93E2052818817E003B067B /* kukaAppsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F93E2042818817E003B067B /* kukaAppsTests.swift */; };
+		9F93E20F2818817E003B067B /* kukaAppsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F93E20E2818817E003B067B /* kukaAppsUITests.swift */; };
+		9F93E2112818817E003B067B /* kukaAppsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F93E2102818817E003B067B /* kukaAppsUITestsLaunchTests.swift */; };
+		9FC5C56E28188A4F00AA4681 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5C56D28188A4F00AA4681 /* HomePage.swift */; };
+		9FC5C57028188A7600AA4681 /* favoritesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5C56F28188A7600AA4681 /* favoritesPage.swift */; };
+		9FC5C57228188ABB00AA4681 /* detailPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5C57128188ABB00AA4681 /* detailPage.swift */; };
+		9FC5C57428188B5000AA4681 /* listing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5C57328188B5000AA4681 /* listing.swift */; };
+		9FC5C57628188C2100AA4681 /* listingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5C57528188C2100AA4681 /* listingTableViewCell.swift */; };
+		9FCAA88228190AB900151BF0 /* animatedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCAA88128190AB900151BF0 /* animatedController.swift */; };
+		C0FD8B91AA9F712771C9F57D /* Pods_kukaApps_kukaAppsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27DED32CF0E59CA1938BF24 /* Pods_kukaApps_kukaAppsUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F93E2012818817E003B067B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F93E1DF2818817B003B067B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F93E1E62818817B003B067B;
+			remoteInfo = kukaApps;
+		};
+		9F93E20B2818817E003B067B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F93E1DF2818817B003B067B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F93E1E62818817B003B067B;
+			remoteInfo = kukaApps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37E4D68D28D63CE7E0692DD3 /* Pods_kukaAppsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kukaAppsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B979181246DE20FE7B4602F /* Pods-kukaAppsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kukaAppsTests.release.xcconfig"; path = "Target Support Files/Pods-kukaAppsTests/Pods-kukaAppsTests.release.xcconfig"; sourceTree = "<group>"; };
+		628398BF562D955F1FEF1C65 /* Pods-kukaApps-kukaAppsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kukaApps-kukaAppsUITests.release.xcconfig"; path = "Target Support Files/Pods-kukaApps-kukaAppsUITests/Pods-kukaApps-kukaAppsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6C780AC0727C19D08B2C6B8C /* Pods-kukaApps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kukaApps.debug.xcconfig"; path = "Target Support Files/Pods-kukaApps/Pods-kukaApps.debug.xcconfig"; sourceTree = "<group>"; };
+		772A19CBE8C59AA4390F9044 /* Pods-kukaApps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kukaApps.release.xcconfig"; path = "Target Support Files/Pods-kukaApps/Pods-kukaApps.release.xcconfig"; sourceTree = "<group>"; };
+		844D8F3B9F5AEB87D0F041E7 /* Pods-kukaApps-kukaAppsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kukaApps-kukaAppsUITests.debug.xcconfig"; path = "Target Support Files/Pods-kukaApps-kukaAppsUITests/Pods-kukaApps-kukaAppsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9F5DBCAE2818FFBD003C93CB /* favoriListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favoriListTableViewCell.swift; sourceTree = "<group>"; };
+		9F5DBCB02818FFD1003C93CB /* favoriList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favoriList.swift; sourceTree = "<group>"; };
+		9F93E1E72818817B003B067B /* kukaApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kukaApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F93E1EA2818817B003B067B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F93E1EC2818817B003B067B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9F93E1F12818817B003B067B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F93E1F42818817B003B067B /* kukaApps.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = kukaApps.xcdatamodel; sourceTree = "<group>"; };
+		9F93E1F62818817E003B067B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F93E1F92818817E003B067B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F93E1FB2818817E003B067B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F93E2002818817E003B067B /* kukaAppsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kukaAppsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F93E2042818817E003B067B /* kukaAppsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kukaAppsTests.swift; sourceTree = "<group>"; };
+		9F93E20A2818817E003B067B /* kukaAppsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kukaAppsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F93E20E2818817E003B067B /* kukaAppsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kukaAppsUITests.swift; sourceTree = "<group>"; };
+		9F93E2102818817E003B067B /* kukaAppsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kukaAppsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9FC5C56D28188A4F00AA4681 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		9FC5C56F28188A7600AA4681 /* favoritesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favoritesPage.swift; sourceTree = "<group>"; };
+		9FC5C57128188ABB00AA4681 /* detailPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailPage.swift; sourceTree = "<group>"; };
+		9FC5C57328188B5000AA4681 /* listing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listing.swift; sourceTree = "<group>"; };
+		9FC5C57528188C2100AA4681 /* listingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listingTableViewCell.swift; sourceTree = "<group>"; };
+		9FCAA88128190AB900151BF0 /* animatedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animatedController.swift; sourceTree = "<group>"; };
+		B91128818575DB58547B04C6 /* Pods-kukaAppsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kukaAppsTests.debug.xcconfig"; path = "Target Support Files/Pods-kukaAppsTests/Pods-kukaAppsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D27DED32CF0E59CA1938BF24 /* Pods_kukaApps_kukaAppsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kukaApps_kukaAppsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F683D1E84F04F6A30B6D415F /* Pods_kukaApps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kukaApps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F93E1E42818817B003B067B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A3BBF71E04A10BCBA34AA0A /* Pods_kukaApps.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F93E1FD2818817E003B067B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96959D0D74CD41FD417D7C55 /* Pods_kukaAppsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F93E2072818817E003B067B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0FD8B91AA9F712771C9F57D /* Pods_kukaApps_kukaAppsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B55D3191054D1972712DE21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F683D1E84F04F6A30B6D415F /* Pods_kukaApps.framework */,
+				D27DED32CF0E59CA1938BF24 /* Pods_kukaApps_kukaAppsUITests.framework */,
+				37E4D68D28D63CE7E0692DD3 /* Pods_kukaAppsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F93E1DE2818817B003B067B = {
+			isa = PBXGroup;
+			children = (
+				9F93E1E92818817B003B067B /* kukaApps */,
+				9F93E2032818817E003B067B /* kukaAppsTests */,
+				9F93E20D2818817E003B067B /* kukaAppsUITests */,
+				9F93E1E82818817B003B067B /* Products */,
+				B1E907DD804E12FD44A2FA01 /* Pods */,
+				7B55D3191054D1972712DE21 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9F93E1E82818817B003B067B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F93E1E72818817B003B067B /* kukaApps.app */,
+				9F93E2002818817E003B067B /* kukaAppsTests.xctest */,
+				9F93E20A2818817E003B067B /* kukaAppsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F93E1E92818817B003B067B /* kukaApps */ = {
+			isa = PBXGroup;
+			children = (
+				9FC5C56C281889F800AA4681 /* Controller */,
+				9FC5C56B281889CE00AA4681 /* Model */,
+				9FC5C56A281889B500AA4681 /* View */,
+				9F93E1EA2818817B003B067B /* AppDelegate.swift */,
+				9F93E1EC2818817B003B067B /* SceneDelegate.swift */,
+				9F93E1F62818817E003B067B /* Assets.xcassets */,
+				9F93E1F82818817E003B067B /* LaunchScreen.storyboard */,
+				9F93E1FB2818817E003B067B /* Info.plist */,
+				9F93E1F32818817B003B067B /* kukaApps.xcdatamodeld */,
+			);
+			path = kukaApps;
+			sourceTree = "<group>";
+		};
+		9F93E2032818817E003B067B /* kukaAppsTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F93E2042818817E003B067B /* kukaAppsTests.swift */,
+			);
+			path = kukaAppsTests;
+			sourceTree = "<group>";
+		};
+		9F93E20D2818817E003B067B /* kukaAppsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F93E20E2818817E003B067B /* kukaAppsUITests.swift */,
+				9F93E2102818817E003B067B /* kukaAppsUITestsLaunchTests.swift */,
+			);
+			path = kukaAppsUITests;
+			sourceTree = "<group>";
+		};
+		9FC5C56A281889B500AA4681 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9F93E1F02818817B003B067B /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9FC5C56B281889CE00AA4681 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9FC5C57328188B5000AA4681 /* listing.swift */,
+				9FC5C57528188C2100AA4681 /* listingTableViewCell.swift */,
+				9F5DBCAE2818FFBD003C93CB /* favoriListTableViewCell.swift */,
+				9F5DBCB02818FFD1003C93CB /* favoriList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9FC5C56C281889F800AA4681 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9FC5C56D28188A4F00AA4681 /* HomePage.swift */,
+				9FC5C56F28188A7600AA4681 /* favoritesPage.swift */,
+				9FC5C57128188ABB00AA4681 /* detailPage.swift */,
+				9FCAA88128190AB900151BF0 /* animatedController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B1E907DD804E12FD44A2FA01 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C780AC0727C19D08B2C6B8C /* Pods-kukaApps.debug.xcconfig */,
+				772A19CBE8C59AA4390F9044 /* Pods-kukaApps.release.xcconfig */,
+				844D8F3B9F5AEB87D0F041E7 /* Pods-kukaApps-kukaAppsUITests.debug.xcconfig */,
+				628398BF562D955F1FEF1C65 /* Pods-kukaApps-kukaAppsUITests.release.xcconfig */,
+				B91128818575DB58547B04C6 /* Pods-kukaAppsTests.debug.xcconfig */,
+				5B979181246DE20FE7B4602F /* Pods-kukaAppsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F93E1E62818817B003B067B /* kukaApps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F93E2142818817E003B067B /* Build configuration list for PBXNativeTarget "kukaApps" */;
+			buildPhases = (
+				5904DA85C9DFEE905367D357 /* [CP] Check Pods Manifest.lock */,
+				9F93E1E32818817B003B067B /* Sources */,
+				9F93E1E42818817B003B067B /* Frameworks */,
+				9F93E1E52818817B003B067B /* Resources */,
+				1CE8BBE62F50D77B4675400A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kukaApps;
+			productName = kukaApps;
+			productReference = 9F93E1E72818817B003B067B /* kukaApps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F93E1FF2818817E003B067B /* kukaAppsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F93E2172818817E003B067B /* Build configuration list for PBXNativeTarget "kukaAppsTests" */;
+			buildPhases = (
+				B4E444B7E16417B9F7306103 /* [CP] Check Pods Manifest.lock */,
+				9F93E1FC2818817E003B067B /* Sources */,
+				9F93E1FD2818817E003B067B /* Frameworks */,
+				9F93E1FE2818817E003B067B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F93E2022818817E003B067B /* PBXTargetDependency */,
+			);
+			name = kukaAppsTests;
+			productName = kukaAppsTests;
+			productReference = 9F93E2002818817E003B067B /* kukaAppsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F93E2092818817E003B067B /* kukaAppsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F93E21A2818817E003B067B /* Build configuration list for PBXNativeTarget "kukaAppsUITests" */;
+			buildPhases = (
+				6C673F87A0A5D5F268CD91C7 /* [CP] Check Pods Manifest.lock */,
+				9F93E2062818817E003B067B /* Sources */,
+				9F93E2072818817E003B067B /* Frameworks */,
+				9F93E2082818817E003B067B /* Resources */,
+				CD3669BE5D8DF8ACA785619E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F93E20C2818817E003B067B /* PBXTargetDependency */,
+			);
+			name = kukaAppsUITests;
+			productName = kukaAppsUITests;
+			productReference = 9F93E20A2818817E003B067B /* kukaAppsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F93E1DF2818817B003B067B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					9F93E1E62818817B003B067B = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					9F93E1FF2818817E003B067B = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 9F93E1E62818817B003B067B;
+					};
+					9F93E2092818817E003B067B = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 9F93E1E62818817B003B067B;
+					};
+				};
+			};
+			buildConfigurationList = 9F93E1E22818817B003B067B /* Build configuration list for PBXProject "kukaApps" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F93E1DE2818817B003B067B;
+			productRefGroup = 9F93E1E82818817B003B067B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F93E1E62818817B003B067B /* kukaApps */,
+				9F93E1FF2818817E003B067B /* kukaAppsTests */,
+				9F93E2092818817E003B067B /* kukaAppsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F93E1E52818817B003B067B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F93E1FA2818817E003B067B /* LaunchScreen.storyboard in Resources */,
+				9F93E1F72818817E003B067B /* Assets.xcassets in Resources */,
+				9F93E1F22818817B003B067B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F93E1FE2818817E003B067B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F93E2082818817E003B067B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CE8BBE62F50D77B4675400A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kukaApps/Pods-kukaApps-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kukaApps/Pods-kukaApps-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kukaApps/Pods-kukaApps-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5904DA85C9DFEE905367D357 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kukaApps-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C673F87A0A5D5F268CD91C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kukaApps-kukaAppsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4E444B7E16417B9F7306103 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kukaAppsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD3669BE5D8DF8ACA785619E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kukaApps-kukaAppsUITests/Pods-kukaApps-kukaAppsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kukaApps-kukaAppsUITests/Pods-kukaApps-kukaAppsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kukaApps-kukaAppsUITests/Pods-kukaApps-kukaAppsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F93E1E32818817B003B067B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FC5C57428188B5000AA4681 /* listing.swift in Sources */,
+				9FC5C56E28188A4F00AA4681 /* HomePage.swift in Sources */,
+				9FC5C57628188C2100AA4681 /* listingTableViewCell.swift in Sources */,
+				9F93E1F52818817B003B067B /* kukaApps.xcdatamodeld in Sources */,
+				9FC5C57228188ABB00AA4681 /* detailPage.swift in Sources */,
+				9F93E1EB2818817B003B067B /* AppDelegate.swift in Sources */,
+				9F5DBCB12818FFD1003C93CB /* favoriList.swift in Sources */,
+				9FCAA88228190AB900151BF0 /* animatedController.swift in Sources */,
+				9FC5C57028188A7600AA4681 /* favoritesPage.swift in Sources */,
+				9F5DBCAF2818FFBD003C93CB /* favoriListTableViewCell.swift in Sources */,
+				9F93E1ED2818817B003B067B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F93E1FC2818817E003B067B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F93E2052818817E003B067B /* kukaAppsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F93E2062818817E003B067B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F93E2112818817E003B067B /* kukaAppsUITestsLaunchTests.swift in Sources */,
+				9F93E20F2818817E003B067B /* kukaAppsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F93E2022818817E003B067B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F93E1E62818817B003B067B /* kukaApps */;
+			targetProxy = 9F93E2012818817E003B067B /* PBXContainerItemProxy */;
+		};
+		9F93E20C2818817E003B067B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F93E1E62818817B003B067B /* kukaApps */;
+			targetProxy = 9F93E20B2818817E003B067B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F93E1F02818817B003B067B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F93E1F12818817B003B067B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F93E1F82818817E003B067B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F93E1F92818817E003B067B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F93E2122818817E003B067B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F93E2132818817E003B067B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F93E2152818817E003B067B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C780AC0727C19D08B2C6B8C /* Pods-kukaApps.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37726QARMT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = kukaApps/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.kukaApps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F93E2162818817E003B067B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 772A19CBE8C59AA4390F9044 /* Pods-kukaApps.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37726QARMT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = kukaApps/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.kukaApps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9F93E2182818817E003B067B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B91128818575DB58547B04C6 /* Pods-kukaAppsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37726QARMT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.kukaAppsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kukaApps.app/kukaApps";
+			};
+			name = Debug;
+		};
+		9F93E2192818817E003B067B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B979181246DE20FE7B4602F /* Pods-kukaAppsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37726QARMT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.kukaAppsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kukaApps.app/kukaApps";
+			};
+			name = Release;
+		};
+		9F93E21B2818817E003B067B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 844D8F3B9F5AEB87D0F041E7 /* Pods-kukaApps-kukaAppsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37726QARMT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.kukaAppsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kukaApps;
+			};
+			name = Debug;
+		};
+		9F93E21C2818817E003B067B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 628398BF562D955F1FEF1C65 /* Pods-kukaApps-kukaAppsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37726QARMT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.kukaAppsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kukaApps;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F93E1E22818817B003B067B /* Build configuration list for PBXProject "kukaApps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F93E2122818817E003B067B /* Debug */,
+				9F93E2132818817E003B067B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F93E2142818817E003B067B /* Build configuration list for PBXNativeTarget "kukaApps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F93E2152818817E003B067B /* Debug */,
+				9F93E2162818817E003B067B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F93E2172818817E003B067B /* Build configuration list for PBXNativeTarget "kukaAppsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F93E2182818817E003B067B /* Debug */,
+				9F93E2192818817E003B067B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F93E21A2818817E003B067B /* Build configuration list for PBXNativeTarget "kukaAppsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F93E21B2818817E003B067B /* Debug */,
+				9F93E21C2818817E003B067B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9F93E1F32818817B003B067B /* kukaApps.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9F93E1F42818817B003B067B /* kukaApps.xcdatamodel */,
+			);
+			currentVersion = 9F93E1F42818817B003B067B /* kukaApps.xcdatamodel */;
+			path = kukaApps.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9F93E1DF2818817B003B067B /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_kukaAppsTests {
+  umbrella header "Pods-kukaAppsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
